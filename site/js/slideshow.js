@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = urls[currentIndex];
     };
 
-    //cooldown van switchen naar pag
+    //cooldown en switchen naar pag
     setInterval(() => {
         switchPage(currentIndex + 1);
-    }, 15000);
+    }, 30000);
 
     //shortcut voor switchen naar paginas
     document.addEventListener('keydown', (event) => {
