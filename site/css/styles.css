@@ -4,7 +4,7 @@ html {
     padding: 0;
     width: 100%;
     font-family: Arial, sans-serif;
-    background: linear-gradient(270deg, #605529, #1C1C1E);
+    background: linear-gradient(270deg, #34332b, #1C1C1E);
     background-size: 400% 400%;
     animation: gradientAnimation 17s ease infinite;
     color: #ffffff;
@@ -113,8 +113,8 @@ nav .logo {
 }
 
 .item video {
-    width: 300px;
-    height: 200px;
+    width: auto;
+    max-width: 500px;
     margin-right: 20px;
     margin-top: 10px;
 }
