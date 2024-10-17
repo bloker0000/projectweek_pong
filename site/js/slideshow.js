@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urls = [
-        'game_page.html',
+        'index.html',
         'testpage1.html',
         'testpage2.html'
     ];
