@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem('currentIndex', currentIndex);
         window.location.href = urls[currentIndex];
     };
-
+/*
     //cooldown en switchen naar pag
     setInterval(() => {
         switchPage(currentIndex + 1);
     }, 30000);
-
+*/
     //shortcut voor switchen naar paginas
     document.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowRight') {
