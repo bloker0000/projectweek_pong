@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urls = [
         'index.html',
-        'testpage1.html',
-        'testpage2.html'
+        '2.html',
+        'gamepage.html'
     ];
 
     //index van de pagina
