@@ -3,11 +3,21 @@ html {
     margin: auto;
     padding: 0;
     width: auto;
-    font-family: Arial, sans-serif;
+    font-family: 'Silkscreen', Arial, Helvetica, sans-serif;
     background: linear-gradient(270deg, #34332b, #1C1C1E);
     background-size: 400% 400%;
     animation: gradientAnimation 17s ease infinite;
     color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Silkscreenbold';
+    src: url(Silkscreen-Regular.ttf);
 }
 
 @keyframes gradientAnimation {
@@ -157,7 +167,7 @@ nav .logo {
 .game-title {
     text-align: right;
     margin-right: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }

@@ -3,37 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page 1</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Game Home Page</title>
+    <link rel="stylesheet" href="css/2.css">
     <script src="js/slideshow.js" defer></script>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(270deg, #ff00cc, #3333ff, #00ffcc, #ffcc00);
-            background-size: 800% 800%;
-            animation: gradientAnimation 15s ease infinite;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #ffffff;
-        }
-
-        @keyframes gradientAnimation {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        h1 {
-            font-size: 50px;
-        }
-    </style>
 </head>
 <body>
-    <h1>Test Page 1</h1>
+    <header>
+        <nav>
+            <a href="#"><img src="images/homeicon.png" alt="Home Icon" class="logo"></a>
+            <a href="testpage1.html">- Home -</a>
+            <a href="testpage2.html">???</a>
+            <a href="index.html">Gameplay</a>
+        </nav>
+    </header>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="vids/ponggameplay.mp4" type="video/mp4">
+        </video>
+    </div>
+    <main>
+        
+        <section class="intro">
+            <h1>Museum de Pixel</h1>
+        </section>
+
+        <section class="game-info">
+            <h2>Pong Classic</h2>
+            <p>Pong is een van de eerste arcade-videogames die in 1972 werd uitgebracht door Atari.<br> Het is een eenvoudig tweedimensionaal sportspel dat tafeltennis simuleert. <br>De speler bestuurt een peddel door deze verticaal over het scherm te bewegen en probeert de bal naar de tegenstander te slaan.</p>
+        </section>
+    </main>
 </body>
 </html>
