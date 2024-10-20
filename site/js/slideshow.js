@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urls = [
         'index.html',
-        '2.html',
+        'info.html',
         'gamepage.html'
     ];
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(() => {
         switchPage(currentIndex + 1);
     }, 30000);
-    
+
     //shortcut voor switchen naar paginas
     document.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowRight') {

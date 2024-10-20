@@ -80,7 +80,7 @@ nav .logo {
 }
 
 main {
-    margin-top: 25px;
+    margin-top: 50px;
     position: relative;
     z-index: 2;
     padding: 20px;
@@ -118,8 +118,13 @@ main {
 }
 
 .side-section {
+    margin-top: 85px;
     width: 35%;
     text-align: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
 }
 
 .side-section .header {
