@@ -1,0 +1,155 @@
+body,
+html {
+    margin: auto;
+    padding: 0;
+    width: auto;
+    font-family: 'Silkscreen', Arial, Helvetica, sans-serif;
+    background: linear-gradient(270deg, #34332b, #1C1C1E);
+    background-size: 400% 400%;
+    animation: gradientAnimation 17s ease infinite;
+    color: #ffffff;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Silkscreenbold';
+    src: url(Silkscreen-Regular.ttf);
+}
+
+header {
+    background-color: #3a3a3ab3;
+    /*transparent achtegrond*/
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    padding: 15px;
+}
+
+header h1 {
+    font-size: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .logo {
+    position: relative;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.info-content2 {
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+main {
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.info-section {
+    padding: 15px;
+}
+
+.info-section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-family: 'Silkscreenbold';
+    color: #fdda50;
+}
+
+.side-section {
+    margin-left: 50px;
+    width: 35%;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 20px;
+}
+
+.side-section .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.side-section h2 {
+    font-size: 48px;
+    color: #fdda50;
+    margin-right: 10px;
+    position: relative;
+    top: -20px;
+    text-shadow: 0 0 10px #ffda50cc;
+    /* glow */
+    margin: 0;
+}
+
+.side-section h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: right;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    /*glow*/
+    margin: 0;
+}
+
+.side-section hr {
+    border: 1px solid #fff;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 55%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    /*glow*/
+}
